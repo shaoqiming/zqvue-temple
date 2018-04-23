@@ -27,3 +27,7 @@ UI框架使用Element。
 ### 安装
 npm 命令解释一下 i 为Install的缩写。-S的命令为-Save 的缩写，将下载下来的包依赖到生产环境中。
 >npm i element-ui -S
+
+### Element UI 动态路由实现
+
+> https://www.cnblogs.com/luyuefeng/p/8039020.html
