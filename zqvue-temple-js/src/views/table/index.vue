@@ -1,6 +1,6 @@
 <template>
   <div>
-      form页面
+      table页面
   </div>
 </template>
 

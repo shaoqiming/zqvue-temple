@@ -1,12 +1,10 @@
 <template>
   <div>
-      form页面
+      Tree
   </div>
 </template>
-
 <script>
 export default {
   
 }
 </script>
-
