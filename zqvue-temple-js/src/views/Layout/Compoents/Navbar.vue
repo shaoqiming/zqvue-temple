@@ -1,9 +1,18 @@
 <template>
-  <div>导航条的位置</div>
+  <div>
+    <bread-crumb>
+    </bread-crumb>
+
+  </div>
 </template>
 
 <script>
+import BreadCrumb from "../../../components/Breadcrumb";
+
 export default {
-  
-}
+  name:"anvbar",
+  components:{
+    BreadCrumb
+  }
+};
 </script>
