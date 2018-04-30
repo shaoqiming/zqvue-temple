@@ -1,6 +1,6 @@
 <template>
     <el-menu router :default-active='$router.path' background-color="#545c64">
-        <template v-for="(item,index) in $router.options.routes" v-if="item.menuShow&&item.hasChild">
+        <template v-for="(item) in $router.options.routes" v-if="item.menuShow&&item.hasChild">
             <router-link v-if="item.children.length===1&&!item.children[0].children" :to="item.path+'/'+item.children[0].path" :key="item.children[0].name">
                 <el-menu-item :index="item.path+'/'+item.children[0].path">
                     <span v-if="item.children[0].meta&&item.children[0].meta.title">
